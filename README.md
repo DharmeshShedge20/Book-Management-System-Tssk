@@ -75,8 +75,8 @@ The book is linked to the logged-in user using their user._id.
 The system saves the book in the database and returns a success response.
 
 
-Get All Books 📚
-📌 Purpose: Fetch all books that belong to the logged-in user.
+Get All Books 
+Purpose: Fetch all books that belong to the logged-in user.
 
 🔹 How It Works:
 Books of that user shown on dashboard 
