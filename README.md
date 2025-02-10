@@ -20,19 +20,19 @@ Vite + React.js ,Material-UI, Axios for API requests
 
 
 User API Endpoints
-Method	Endpoint	         Description	              Authentication Required
+
 POST	/api/auth/register	 Register a new user	      ❌ No
 POST	/api/auth/login	     Login user and get tokens	❌ No
 POST	/api/auth/logout	   L ogout user	              ✅ Yes
 
 
 Book API Endpoints
-Method	  Endpoint	               Description	                    Authentication Required
+
 GET	     /api/book/books	         Retrieve all books	              ✅ Yes
-POST	   /api/book/books	         Add a new book	                  ✅ Yes
+POST	   /api/book/books	         Add a new book	                   ✅ Yes
 GET	     /api/book/books/:id	     Retrieve a single book by ID	    ✅ Yes
-PUT	     /api/book/books/:id	     Update an existing book by ID	  ✅ Yes
-DELETE	 /api/book/books/:id	     Delete a book by ID	            ✅ Yes
+PUT	     /api/book/books/:id	     Update an existing book by ID	   ✅ Yes
+DELETE	 /api/book/books/:id	     Delete a book by ID	              ✅ Yes
 
 
 
